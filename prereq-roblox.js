@@ -1,4 +1,4 @@
-if (window.location.href === "https://www.roblox.com/home") {
+function roblox() {
     console.log(await GM_getValue('able'));
     console.log(await GM_getValue('atoken'));
     window.onload = function() {
