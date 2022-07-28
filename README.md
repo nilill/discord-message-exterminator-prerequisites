@@ -1,2 +1,2 @@
-# discord-message-exterminator-prerequisites
-A simple addon to a message deleter which requires some needed files and libraries.
+# ill-project-prerequisites
+Addons / libraries that I need for my projects.
